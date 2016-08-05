@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p>Seleziona un file:
+        <input id="file" type="file" multiple>
+    </p>
+    <a href="javascript:startRead();">Leggi il file</a>
+    <script>
+    function startRead() {
+        var file = document.getElementById('file');
+        alert(file.files.length);
+    }
+
+    var reader = new FileReader();
+
+    reader.onload = function(event) {
+
+        var dataURL = event.target.result;
+        document.getElementById("demo").src = dataURL;
+    };
+
+    /*  reader.readAsDataURL(file);
+      var myWorker = new Worker("prova_worker.js");
+      myWorker.postMessage("start");
+
+      var msgDisplay = document.getElementById("demo");
+      myWorker.addEventListener("message", function(event) {
+          msgDisplay.innerHTML = event.data;
+      });*/
+    var file = document.getElementById('file');
+
+    reader.readAsText(file);
+    </script>
+</body>
+
+</html>

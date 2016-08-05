@@ -1,0 +1,56 @@
+function Model() {
+    this.foo = "foo";
+    this.array = [];
+}
+
+Model.prototype.foo = "";
+Model.prototype.array = null;
+Model.prototype.doNothing = function() {};
+
+function RestModel() {
+    this.bar = "bar";
+}
+
+RestModel.prototype = new Model;
+RestModel.prototype.bar = ""
+
+var myModel = new RestModel();
+Now, here the issues:
+
+The constructor of Model is called once, only when the RestModel.prototype is set. Therefore, the foo property for every RestModel instance will be "foo".
+
+Not only that, but all RestModel instances will share the same instance of the same array in this.array property. If you create an instance of Model directly, you have a new instance of array for each instances.
+
+myModel.constructor is Model instead of RestModel. That's because we override prototype with a new instance of Model, that contains constructor equals to Model.
+
+If you want to have a new instance of RestModel with a lazy call to the constructor, is not possible.
+I think there are t
+
+
+//////////////////////////////////////////
+
+function Model() {
+    this.foo = "foo";
+    this.array = [];
+}
+
+Model.prototype.foo = "";
+Model.prototype.array = null;
+Model.prototype.doNothing = function() {};
+
+function RestModel() {
+    Model.call(this);
+
+    this.bar = "bar";
+}
+
+RestModel.prototype = Object.create(Model.prototype);
+RestModel.prototype.constructor = RestModel;
+RestModel.prototype.bar = ""
+
+var myModel = new RestModel();
+
+// for lazy constructor call
+var anotherModel = Object.create(RestModel.prototype);
+
+RestModel.call(anotherModel);
