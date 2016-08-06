@@ -6,5 +6,5 @@
       }
   };
 
-
+  //fix gestione this in callBack
   document.getElementById("pulsante").addEventListener("click", persona.saluta.bind(persona));
