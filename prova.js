@@ -1,5 +1,6 @@
 //file vuoto con solo un oggetto
 var o = {
     name = "Gianni",
-    work = "about programming!"
+    work = "about programming!",
+    address = "via kkklk"
 }
