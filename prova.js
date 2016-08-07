@@ -4,12 +4,11 @@ var o = {
         work = "about programming!",
         address = "via roma",
         phone = 44444
-
     }
     //file vuoto con solo un oggetto
 var object2 = {
     name = "Mary",
     work = "teacher",
-    address = "via mazzini",
+    address = "via Garibaldi",
     phone = 87877
 }
