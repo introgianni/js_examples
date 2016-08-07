@@ -13,7 +13,7 @@ var object2 = {
     phone = 87877
 }
 var object2 = {
-    name = "ilena",
+    name = "pippo",
     work = "teacher",
     address = "via ",
     phone = 3232
