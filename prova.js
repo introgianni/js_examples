@@ -15,6 +15,6 @@ var object2 = {
 var object3 = {
     name = "pippo",
     work = "teacher",
-    address = "via topolino 7",
+    address = "via topolino 12",
     phone = 3232
 }
