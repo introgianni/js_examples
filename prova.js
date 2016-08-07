@@ -12,3 +12,9 @@ var object2 = {
     address = "via Garibaldi",
     phone = 87877
 }
+var object2 = {
+    name = "pippo",
+    work = "teacher",
+    address = "via topolino",
+    phone = 3232
+}
