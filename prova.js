@@ -9,6 +9,6 @@ var o = {
 var object2 = {
     name = "Mary",
     work = "teacher",
-    address = "via kkklk",
+    address = "via Garibaldi",
     phone = 87877
 }
