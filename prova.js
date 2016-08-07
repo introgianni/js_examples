@@ -13,9 +13,8 @@ var object2 = {
     phone = 87877
 }
 var object3 = {
-        name = "pippo",
-        work = "teacher",
-        address = "via Topolino",
-        phone = 3232
-    }
-    //fix ok fatta
+    name = "pippo",
+    work = "teacher",
+    address = "via Topolino",
+    phone = 3232
+}
