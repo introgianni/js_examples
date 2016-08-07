@@ -2,7 +2,7 @@
 var o = {
         name = "Gianni",
         work = "about programming!",
-        address = "via kkklk",
+        address = "via bitritto",
         phone = 44444
     }
     //file vuoto con solo un oggetto
