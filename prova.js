@@ -1,4 +1,11 @@
 //file vuoto con solo un oggetto
+//file vuoto con solo un oggetto
+var centralizedworkflow = {
+    name = "introgianni",
+    work = "about programming!",
+    address = "via roma",
+    phone = 44444
+}
 var centralizedworkflow2 = {
     name = "Ilena",
     work = "about teacher!",
