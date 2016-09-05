@@ -1,5 +1,6 @@
-Some usefule resources about JS programming
+Some useful resources about JS programming
 
+My Resources:
 javascript w3school
 ajax w3school
 json w3shoool.it guida jaavascript
