@@ -1,4 +1,4 @@
-Some usefule resources about JS programming
+Some usefule resources about JS programming or Angular
 
 javascript w3school
 ajax w3school
