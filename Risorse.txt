@@ -10,6 +10,7 @@ http://blog.angular-university.io/really-understanding-javascript-closures/
 
 Prototype in:
 www.javascriptinfo.com
+
 Articoli
 http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
 http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
