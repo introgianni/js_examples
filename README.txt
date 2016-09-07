@@ -1,2 +1,2 @@
-# js_examples
+# ReadMe file
 Some javascript examples to read for learning JavaScript
