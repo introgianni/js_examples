@@ -1,4 +1,4 @@
-# ReadMe file
+# ReadMe
 Some javascript examples to read for learning JavaScript:
 JavaScript_prototype.txt
 prova_anguar_watch.html
