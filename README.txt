@@ -17,3 +17,4 @@ prova_jquery.html
 prova_worker.html
 prova_worker.js
 Fine
+Bye
