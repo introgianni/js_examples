@@ -1,6 +1,6 @@
 # ReadMe file
 Some javascript examples to read for learning JavaScript:
-
+ 
 JavaScript_prototype.txt
 prova_anguar_watch.html
 prova_call.html
