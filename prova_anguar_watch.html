@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl as crt">
+        Numero:
+        <input type="text" ng-model="numero">
+        </br>
+        <h1>raddoppio: {{raddoppio}}</h1>
+        </br>
+    </div>
+    <script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        $scope.$watch("numero", function(newValue, oldValue) {
+            if (newValue != oldValue)
+                $scope.raddoppio = $scope.numero * 2;
+        });
+    });
+    </script>
+</body>
+
+</html>
