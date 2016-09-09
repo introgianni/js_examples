@@ -1,4 +1,4 @@
-# ReadMe on branch feature1
+# ReadMe 1.0 on branch feature1
 Some javascript examples to read for learning JavaScript:
 
 JavaScript_prototype.txt
