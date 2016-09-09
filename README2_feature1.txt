@@ -1,8 +1,9 @@
-# ReadMe 6.0 on branch feature1 and so on
+# ReadMe
 Some javascript examples to read for learning JavaScript:
 
 JavaScript_prototype.txt
 prova_anguar_watch.html
+prova_call.html
 prova_callback_this.html
 prova_callback_this.js
 prova_closure_referenceArgument.html
