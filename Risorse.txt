@@ -1,3 +1,4 @@
+File modified in  branch sts_try_branch
 Some useful resources about JS programming
 
 javascript w3school
