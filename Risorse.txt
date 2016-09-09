@@ -1,6 +1,5 @@
 versione 1.2 mod.
 Some usefule resources about JS programming or Angular
-
 My Resources:
 javascript w3school
 ajax w3school
