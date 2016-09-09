@@ -1,3 +1,4 @@
+versione 1.2 mod.
 Some usefule resources about JS programming
 
 javascript w3school
