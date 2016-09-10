@@ -1,4 +1,3 @@
-
 master senza esperimento
 # ReadMe 6.0 on branch feature1 and so on
 Some javascript examples to read for learning JavaScript:
