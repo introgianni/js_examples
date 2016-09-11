@@ -1,4 +1,4 @@
-# ReadMe 6.0 on branch feature1 and so on
+# ReadMe versione master modificata gintrona
 Some javascript examples to read for learning JavaScript:
 
 JavaScript_prototype.txt
