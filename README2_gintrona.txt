@@ -1,4 +1,4 @@
-# ReadMe
+# ReadMe versione2
 Some javascript examples to read for learning JavaScript:
 
 JavaScript_prototype.txt
